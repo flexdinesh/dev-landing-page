@@ -12,7 +12,7 @@ I wanted a minimal landing page to showcase everything I do online. So I sat dow
 
 Dev Landing Page comes in 9 **material themes**.
 
-![9 Material Themes](https://image.ibb.co/m2nSf7/dev_landing_page.jpg)
+![9 Material Themes](https://image.ibb.co/jJVKCn/dev_landing_page_themes.jpg)
 
 ## GitHub Pages
 
