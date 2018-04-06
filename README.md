@@ -31,7 +31,7 @@ If you already have a GitHub profile (obviously)
 
 Voila! Your site should be live at `https://{username}.github.io`
 
-My **Dev Landing Page** is in my favourite yellow theme - [Dinesh Pandiyan](https://flexdinesh.github.io)
+Here's mine, but I revamped my **Dev Landing Page** with React and some magic - [Dinesh Pandiyan](https://flexdinesh.github.io)
 
 ## License
 
