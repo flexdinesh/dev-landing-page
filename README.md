@@ -35,7 +35,7 @@ Here's mine, but I revamped my **Dev Landing Page** with React and some magic - 
 
 ### Custom Domain
 
-In the case that you want to make your new landing page available under a domain like `{username}.com` you can get started with the instructions you can find in the [GitHub Help](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+If you want to make your new landing page available under a domain like `{username}.com` you can get started here - [Setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
 ## License
 
