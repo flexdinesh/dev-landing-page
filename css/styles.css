@@ -97,7 +97,20 @@ main > .tagline {
 	-webkit-transition: all .3s ease-in-out;
 }
 
+
+/* links */
+
 .social-link {
 	margin-left: 1em;
 	margin-right: 1em;
+}
+
+.external-link {
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+.title {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
 }
