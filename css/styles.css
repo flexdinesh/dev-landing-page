@@ -28,7 +28,7 @@ html {
 	}
 }
 
-.icons-social i {
+#icons-social i {
 	font-size: 3em;
 }
 
@@ -43,7 +43,7 @@ main {
 	text-align: center;
 }
 
-main > .intro {
+main > #intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
@@ -55,7 +55,7 @@ main > .tagline {
 	font-weight: 100;
 }
 
-.icons-social i {
+#icons-social i {
 	padding: 10px;
 }
 
