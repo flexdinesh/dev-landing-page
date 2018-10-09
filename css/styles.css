@@ -69,3 +69,35 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+
+/* Social icons hover */
+
+.fab-link:hover {
+	color: #303F9F;
+	background: #FAFAFA;
+	border-radius: 50px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+.fab-link i:hover {
+	color: #303F9F;
+	background: #FAFAFA;
+	border-radius: 50px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+.fab-link i before:hover {
+	color: #303F9F;
+	background: #FAFAFA;
+	border-radius: 50px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+.social-link {
+	margin-left: 1em;
+	margin-right: 1em;
+}
