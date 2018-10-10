@@ -1,0 +1,7 @@
+lang: ruby
+before_install:
+  - gem install sass
+script:
+  - sass scss/_main.scss > assets/css/main.css
+after_success:
+  - .travis/push_to_gh.sh
