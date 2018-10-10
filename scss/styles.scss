@@ -73,28 +73,21 @@ main > .tagline {
 
 /* Social icons hover */
 
+.fab-template {
+	color: #303F9F;
+	background: #FAFAFA;
+	border-radius: 50px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
 .fab-link:hover {
-	color: #303F9F;
-	background: #FAFAFA;
-	border-radius: 50px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
+	@extend .fab-template
 }
-
 .fab-link i:hover {
-	color: #303F9F;
-	background: #FAFAFA;
-	border-radius: 50px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
+	@extend .fab-template
 }
-
 .fab-link i before:hover {
-	color: #303F9F;
-	background: #FAFAFA;
-	border-radius: 50px;
-	transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
+	@extend .fab-template
 }
 
 
