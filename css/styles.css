@@ -4,6 +4,14 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+img {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+}
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
@@ -53,6 +61,11 @@ main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
+}
+
+.tagline r {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+	color: transparent;
 }
 
 .icons-social i {
