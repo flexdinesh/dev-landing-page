@@ -12,3 +12,8 @@ main {
 .icons-social a svg path{
 	fill: #1E1E1E;
 }
+
+i:hover{
+	color:#691818;;
+}
+
