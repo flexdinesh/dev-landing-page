@@ -47,6 +47,24 @@ main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
+	  background: linear-gradient(to right, yellow,pink,springgreen);
+	  background-size: 200% 200%;
+	  animation: rainbow 2s ease-in-out infinite;
+	  background-clip: text;
+	  -webkit-background-clip:text;
+	  color:white;
+
+	  transition: color .2s ease-in-out;
+	  text-transform:uppercase;
+	  font-weight:900;
+	}
+	.intro:hover{
+	  color:rgba(0,0,0,0);
+	}
+	@keyframes rainbow { 
+	  0%{background-position:left}
+	  50%{background-position:right}
+	  100%{background-position:left}
 }
 
 main > .tagline {
