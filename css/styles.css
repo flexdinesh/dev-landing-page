@@ -69,3 +69,9 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+.icons-social a {
+	transition: all 0.3s ease-in-out;
+}
+.icons-social a:hover  {
+	text-shadow: 4px 3px 0px rgb(40, 40, 40);
+}
