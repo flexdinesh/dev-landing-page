@@ -30,7 +30,39 @@ html {
 
 .icons-social i {
 	font-size: 3em;
+	transition: transform 0.3s;
 }
+.icons-social a i:hover {
+  transform: translateY(-0.5rem) scale(1.03);
+}
+.fa-github:hover {
+  color: #211f1f;
+}
+.fa-twitter:hover {
+  color: #00acee;
+}
+.fa-dev:hover {
+  color: #08090a;
+}
+.fa-stack-overflow:hover {
+  color: #f48024;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+.fa-medium:hover {
+  color: #292929;
+}
+.fa-free-code-camp:hover {
+  color: #eee;
+}
+.fa-behance:hover {
+  color: #0057ff;
+}
+.fa-codepen:hover {
+  color: #eee;
+}
+
 
 /* Custom Styles */
 
