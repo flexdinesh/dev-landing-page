@@ -69,3 +69,16 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+button {
+	background: none;
+    outline: none;
+    width: 250px;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
