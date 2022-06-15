@@ -59,6 +59,10 @@ main > .tagline {
 	padding: 10px;
 }
 
+.icons-social a {
+  text-decoration: none;
+}
+
 .devto {
 	margin-bottom: -0.20rem;
 }
