@@ -44,9 +44,9 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+	font-family: 'roboto', sans-serif;
+	font-size: 3.00em;
+	font-weight: 500;
 }
 
 main > .tagline {
