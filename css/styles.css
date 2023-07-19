@@ -1,75 +1,95 @@
-/* Typography */
-
+*,
 html {
-	font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
-@media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+@media (min-width: 0) {
+  /* Styles for the main container */
+  main {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+  }
+
+  /* Typography styles */
+
+  .intro {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 10vw;
+    font-weight: 600;
+  }
+
+  .tagline {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 3.5vw;
+    margin: 1.5rem 0;
+    font-weight: 100;
+  }
+
+  /* Icons styles */
+
+  .icons-social i {
+    font-size: 3em;
+  }
+
+  .icons-social i {
+    padding: 0 0.2rem;
+    margin: 0 0.5rem;
+    transition: 350ms ease-in-out;
+  }
+
+  .icons-social i:hover {
+    translate: 0 -0.25rem;
+  }
+
+  .icons-social a {
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+  /* Typography styles */
+
+  .intro {
+    font-size: 5rem;
+  }
+
+  .tagline {
+    font-size: 2rem;
+  }
 }
 
-@media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+@media (min-width: 1440px) {
+  /* Typography styles */
+
+  .intro {
+    font-size: 6.5vw;
+  }
+
+  .tagline {
+    font-size: 1.5vw;
+  }
 }
 
-@media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
-}
+@media (min-width: 2400px) {
+  /* Typography styles */
 
-.icons-social i {
-	font-size: 3em;
-}
+  .intro {
+    font-size: 6vw;
+  }
 
-/* Custom Styles */
-
-main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
-}
-
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
-}
-
-main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
-}
-
-.icons-social i {
-	padding: 10px;
-}
-
-.icons-social a {
-  text-decoration: none;
-}
-
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+  /* Icons styles */
+  .icons-social i {
+    font-size: 4em;
+  }
 }

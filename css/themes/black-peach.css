@@ -1,0 +1,19 @@
+/* Theme */
+
+main {
+  background: #000a01;
+  color: #ffa372;
+}
+
+.icons-social a {
+  color: #ffa372;
+}
+
+.tagline p {
+  font-style: italic;
+  color: #ffffff;
+}
+
+.icons-social i:hover {
+  color: #ffffff;
+}
